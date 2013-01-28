@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TestWebServiceViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *taskView;
 
 @end
